@@ -1,0 +1,90 @@
+{
+    "navbarIcons": [
+      {
+        "id": "navbar_notification",
+        "name": "notifications",
+        "color": "white",
+        "type": "material",
+        "actionKey": "Notification"
+      },
+      {
+        "id": "navbar_person",
+        "name": "person",
+        "color": "white",
+        "type": "material",
+        "actionKey": "Person"
+      }
+    ],
+    "primeFeatureIcons": [
+      {
+        "id": "prime_feature_scan_qr",
+        "name": "qr-code",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "QRCode",
+        "label1": "Scan",
+        "label2":"QR Code"
+      },
+      {
+        "id": "prime_feature_number",
+        "name": "dialpad",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "Number",
+        "label1": "Pay By",
+        "label2":"Phone"
+      },
+      {
+        "id": "prime_feature_contact",
+        "name": "phone",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "Contact",
+        "label1": "Pay",
+        "label2":"Contacts"
+      },{
+        "id": "prime_feature_bank",
+        "name": "account-balance",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "Bank",
+        "label1": "Bank",
+        "label2":"Transfer"
+      },
+      {
+        "id": "prime_feature_upi",
+        "name": "alternate-email",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "UPI",
+        "label1": "Pay ID /",
+        "label2":"Number"
+      },{
+        "id": "prime_feature_bills",
+        "name": "credit-card",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "PayBills",
+        "label1": " Pay ",
+        "label2":"Bills"
+      },
+      {
+        "id": "prime_feature_recharge",
+        "name": "charging-station",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "MobRecharge",
+        "label1": "Mobile",
+        "label2":"Recharge"
+      },{
+        "id": "prime_feature_wallet",
+        "name": "wallet",
+        "color": "#266867",
+        "type": "material",
+        "actionKey": "Wallet",
+        "label1": "Wallet",
+        "label2":"   "
+      }
+    ]
+  }
+  
