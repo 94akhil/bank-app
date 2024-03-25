@@ -2,17 +2,17 @@ import {
   StyleSheet,
   Text,
   View,
-  FlatList,
   SafeAreaView,
   ScrollView,
+  TouchableHighlight,
 } from "react-native";
-import { StatusBar } from "expo-status-bar";
 import { LinearGradient } from "expo-linear-gradient";
 import Search from "../components/Search";
 import { Icon } from "@rneui/base";
 import { useState } from "react";
 import commonData from "../data.json";
 import { Card } from "@rneui/themed";
+import Svg, { Circle } from "react-native-svg";
 
 const Home = () => {
   const [label, setLabel] = useState("Default");
@@ -48,24 +48,33 @@ const Home = () => {
           </View>
 
           <View style={styles.primeFeatureContainer}>
-            <Card containerStyle={styles.primeCardContainer} wrapperStyle={styles.primeCardWrapper}>
+            <Card
+              containerStyle={styles.primeCardContainer}
+              wrapperStyle={styles.primeCardWrapper}
+            >
               {commonData["primeFeatureIcons"].map((icon) => (
-                <View key={icon.id} style={styles.primeOptions}>
-                  <Icon
-                    name={icon.name}
-                    color={icon.color}
-                    type={icon.type}
-                    onPress={() => handleIconClick(icon.actionKey)}
-                  />
-                  <Text style={styles.primeLabel1}>{icon.label1}</Text>
-                  <Text style={styles.primeLabel2}>{icon.label2}</Text>
-                </View>
+                <TouchableHighlight key={icon.id}
+                  style={styles.touchHighlight}
+                  onPress={() => handleIconClick(icon.actionKey)}
+                >
+                  <Svg height="75" width="75" style={styles.svgIcon}>
+                    <View  style={styles.primeOptions}>
+                      <Icon
+                        name={icon.name}
+                        color={icon.color}
+                        type={icon.type}
+                      />
+                      <Text style={styles.primeLabel1}>{icon.label1}</Text>
+                      <Text style={styles.primeLabel2}>{icon.label2}</Text>
+                    </View>
+                  </Svg>
+                </TouchableHighlight>
               ))}
             </Card>
           </View>
 
           <View>
-
+            <Text style={styles.primeLabel2}>{label}</Text>
           </View>
         </LinearGradient>
       </ScrollView>
@@ -90,39 +99,47 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flex: 1,
   },
-  primeFeatureContainer:{
-    paddingBottom:'4%'
+  primeFeatureContainer: {
+    paddingBottom: "4%",
   },
   primeCardContainer: {
     color: "white",
     backgroundColor: "#353535",
-    borderColor:'#353535',
-    borderRadius: '5%',
+    borderColor: "#353535",
+    borderRadius: "5%",
   },
   primeCardWrapper: {
     flexDirection: "row",
-    justifyContent: "space-around",
+    justifyContent: "space-evenly",
     flexWrap: "wrap",
-    alignItems:'center'
+    alignItems: "center",
   },
   primeOptions: {
     padding: "2.5%",
-    justifyContent:'center',
-    alignItems:'center'
+    justifyContent: "center",
+    alignItems: "center",
   },
   primeLabel1: {
     textAlign: "justify",
     paddingHorizontal: "1%",
-    paddingTop:'3.5%',
-    color:'white',
-    fontSize:"13%"
+    paddingTop: "3.5%",
+    color: "white",
+    fontSize: 13,
   },
   primeLabel2: {
     textAlign: "justify",
-    paddingBottom:'2%',
-    color:'white',
-    fontSize:"13%"
+    paddingBottom: "2%",
+    color: "white",
+    fontSize: 13,
   },
+  touchHighlight: {
+    borderRadius:'100%',
+    marginVertical:'2%',
+    
+  },
+  svgIcon:{
+    
+  }
 });
 
 export default Home;
