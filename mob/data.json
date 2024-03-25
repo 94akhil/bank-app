@@ -19,7 +19,7 @@
       {
         "id": "prime_feature_scan_qr",
         "name": "qr-code",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "QRCode",
         "label1": "Scan",
@@ -28,7 +28,7 @@
       {
         "id": "prime_feature_number",
         "name": "dialpad",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "Number",
         "label1": "Pay By",
@@ -37,7 +37,7 @@
       {
         "id": "prime_feature_contact",
         "name": "phone",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "Contact",
         "label1": "Pay",
@@ -45,7 +45,7 @@
       },{
         "id": "prime_feature_bank",
         "name": "account-balance",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "Bank",
         "label1": "Bank",
@@ -54,7 +54,7 @@
       {
         "id": "prime_feature_upi",
         "name": "alternate-email",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "UPI",
         "label1": "Pay ID /",
@@ -62,7 +62,7 @@
       },{
         "id": "prime_feature_bills",
         "name": "credit-card",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "PayBills",
         "label1": " Pay ",
@@ -71,7 +71,7 @@
       {
         "id": "prime_feature_recharge",
         "name": "charging-station",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "MobRecharge",
         "label1": "Mobile",
@@ -79,7 +79,7 @@
       },{
         "id": "prime_feature_wallet",
         "name": "wallet",
-        "color": "#266867",
+        "color": "#05adab",
         "type": "material",
         "actionKey": "Wallet",
         "label1": "Wallet",

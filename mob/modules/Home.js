@@ -119,7 +119,7 @@ const styles = StyleSheet.create({
   },
   primeLabel2: {
     textAlign: "justify",
-    paddingBottom:'%',
+    paddingBottom:'2%',
     color:'white',
     fontSize:"13%"
   },
