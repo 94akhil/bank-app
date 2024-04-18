@@ -32,7 +32,7 @@ const styles = StyleSheet.create({
 
     },
     containerStyle: {
-        backgroundColor: '#262626',
+        backgroundColor: 'transparent',
         paddingHorizontal:'5%',
     },
     view:{

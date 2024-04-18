@@ -19,7 +19,7 @@
       {
         "id": "prime_feature_scan_qr",
         "name": "qr-code",
-        "color": "#05adab",
+        "color": "white",
         "type": "material",
         "actionKey": "QRCode",
         "label1": "Scan",
@@ -28,41 +28,26 @@
       {
         "id": "prime_feature_number",
         "name": "dialpad",
-        "color": "#05adab",
+        "color": "white",
         "type": "material",
         "actionKey": "Number",
         "label1": "Pay By",
-        "label2":"Phone"
+        "label2":"Number"
       },
       {
-        "id": "prime_feature_contact",
-        "name": "phone",
-        "color": "#05adab",
-        "type": "material",
-        "actionKey": "Contact",
-        "label1": "Pay",
-        "label2":"Contacts"
-      },{
         "id": "prime_feature_bank",
         "name": "account-balance",
-        "color": "#05adab",
+        "color": "white",
         "type": "material",
         "actionKey": "Bank",
         "label1": "Bank",
         "label2":"Transfer"
       },
+      
       {
-        "id": "prime_feature_upi",
-        "name": "alternate-email",
-        "color": "#05adab",
-        "type": "material",
-        "actionKey": "UPI",
-        "label1": "Pay ID /",
-        "label2":"Number"
-      },{
         "id": "prime_feature_bills",
         "name": "credit-card",
-        "color": "#05adab",
+        "color": "white",
         "type": "material",
         "actionKey": "PayBills",
         "label1": " Pay ",
@@ -71,7 +56,7 @@
       {
         "id": "prime_feature_recharge",
         "name": "charging-station",
-        "color": "#05adab",
+        "color": "white",
         "type": "material",
         "actionKey": "MobRecharge",
         "label1": "Mobile",
@@ -79,12 +64,162 @@
       },{
         "id": "prime_feature_wallet",
         "name": "wallet",
-        "color": "#05adab",
+        "color": "white",
         "type": "material",
         "actionKey": "Wallet",
         "label1": "Wallet",
         "label2":"   "
       }
-    ]
+    ],
+    "people":[
+      {
+        "label1":"John",
+        "label2":"Matthew",
+        "imgSrc":"https://i.pinimg.com/736x/f3/78/4a/f3784adc704a1bc9bcb2e494cd39caee.jpg",
+        "phone":"",
+        "id":"1",
+        "actionKey": "John"
+      },
+      {
+        "label1":"Adam",
+        "label2":"Livington",
+        "imgSrc":"https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9655bb83693347.5d441357a442c.jpg",
+        "phone":"",
+        "id":"2",
+        "actionKey": "Adam"
+      },
+      {
+        "label1":"Mary",
+        "label2":"Jane",
+        "imgSrc":"https://i.pinimg.com/236x/54/6b/2d/546b2d4e9bddbcb894fa8e416739339b.jpg",
+        "phone":"",
+        "id":"3",
+        "actionKey": "Mary"
+      },
+      {
+        "label1":"Steve",
+        "label2":"Rogers",
+        "imgSrc":"https://media.istockphoto.com/id/622789442/photo/man-stands-with-his-arms-crossed.jpg?s=612x612&w=0&k=20&c=VnfB6PKiL69DmxIClUUi2iDxSu5D5ULnms2K_Pki5Ng=",
+        "phone":"",
+        "id":"4",
+        "actionKey": "Steve"
+      },{
+        "label1":"Natasha",
+        "label2":"Romanoff",
+        "imgSrc":"https://media.istockphoto.com/id/1338134319/photo/portrait-of-young-indian-businesswoman-or-school-teacher-pose-indoors.jpg?s=612x612&w=0&k=20&c=Dw1nKFtnU_Bfm2I3OPQxBmSKe9NtSzux6bHqa9lVZ7A=",
+        "phone":"",
+        "id":"5",
+        "actionKey": "Natasha"
+      },
+      {
+        "label1":"Jane",
+        "label2":"Smith",
+        "imgSrc":"https://images.squarespace-cdn.com/content/v1/56799419df40f3a52654773e/1517445209535-4X9XYNRHZFF2XSXI70RZ/corporate+environment+social+profile+photo+executive+photos+nyc.JPG",
+        "phone":"",
+        "id":"6",
+        "actionKey": "John"
+      },
+      {
+        "label1":"Bruce",
+        "label2":"Banners",
+        "imgSrc":"https://www.shutterstock.com/image-photo/head-shot-portrait-close-smiling-600nw-1714666150.jpg",
+        "phone":"",
+        "id":"7",
+        "actionKey": "John"
+      },
+      {
+        "label1":"Tom",
+        "label2":"Park",
+        "imgSrc":"https://media.istockphoto.com/id/1217962587/photo/portrait-of-a-young-confident-smiling-asian-chinese-businessman.jpg?s=612x612&w=0&k=20&c=_2_An_UyM2EiLreTqEj3i8RciDlcSaRdvss6e1ZOqP8=",
+        "phone":"",
+        "id":"8",
+        "actionKey": "Jane"
+      }
+    ],
+
+    "bills":[
+      {
+      "id": "bills_electricity",
+      "name": "lightbulb",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Electricity",
+      "label1": "Electricity",
+      "label2":""
+    },
+    {
+      "id": "bills_rent",
+      "name": "roofing",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Rent",
+      "label1": "Rent",
+      "label2":"Payment"
+    },{
+      "id": "bills_loan",
+      "name": "attach-money",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Loan",
+      "label1": "Loan",
+      "label2":"Payment"
+    },
+    {
+      "id": "bills_cable",
+      "name": "tv",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Cable",
+      "label1": "Cable",
+      "label2":"TV"
+    }
+  ],
+
+  "offersRewards":[
+    {
+      "id": "rewards",
+      "name": "emoji-events",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Rewards",
+      "label1": "Rewards",
+      "label2":""
+    },{
+      "id": "offers",
+      "name": "loyalty",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Offers",
+      "label1": "Offers",
+      "label2":""
+    },{
+      "id": "referrals",
+      "name": "person-add",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Referrals",
+      "label1": "Referrals",
+      "label2":""
+    }
+  ],
+  "unwanted":[
+    {
+      "id": "bills_mobile",
+      "name": "charging-station",
+      "color": "white",
+      "type": "material",
+      "actionKey": "UPI",
+      "label1": "Mobile",
+      "label2":"Recharge"
+    },{
+      "id": "bills_subscriptions",
+      "name": "subscriptions",
+      "color": "white",
+      "type": "material",
+      "actionKey": "Contact",
+      "label1": "Subscriptions",
+      "label2":""
+    }
+  ]
   }
   
